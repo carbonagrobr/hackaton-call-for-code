@@ -167,3 +167,42 @@ footer a {
 .fa-tractor{
   color: black;
 }
+
+
+@media (max-width: 992px) {
+  .navbar{
+    padding: 15px 30px !important;
+  }
+
+  #sobre{
+    padding: 50px 30px;
+  }
+
+  #beneficios, #contato{
+    background-color: #EBECEF;
+    padding: 50px 30px 50px;
+  }
+
+  #diferenciais{
+    padding: 50px 30px 50px;
+  }
+
+  footer{
+    padding: 50px 30px;
+  }
+
+  .carousel-caption{
+    left: 0% !important;
+    text-align: center !important;
+    font-size: 18px !important;
+  }
+
+  .carousel-caption label{
+    text-align: center !important;
+    font-size: 38px !important;
+  }
+  .carousel-caption p{
+    text-align: center !important;
+    font-size: 18px !important;
+  }
+}
